@@ -22,7 +22,4 @@ urlpatterns = [
     url(r'^$', views.home, name='home'),
     url(r'^parkingspots/reserve/(?P<pk>\d+)/$', views.reserve, name='parkingspots'),
     url(r'^parkingspots/available$', views.available, name='parkingspots'),
-
-
-    #url(r'^users/(?P<user_id>\d+)/$', 'viewname', name='urlname'),
 ]
